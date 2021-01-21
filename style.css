@@ -1,0 +1,269 @@
+
+
+.top-text{
+position: absolute;
+height: 100px;
+left: 150px;
+top: 0px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: bold;
+font-size: 8rem;
+line-height: 10px;
+margin-top: 4.5rem;
+color: #000000;
+}
+
+.links{
+position: absolute;
+height: 618px;
+left: 800px;
+top: 40px;
+font-family: Crimson Text;
+font-size: 4rem;
+line-height: 75px;
+color:black;
+text-decoration: none;
+}
+a{
+ list-style-type: none;
+ text-decoration:none; 
+ color: black;
+}
+li{
+  list-style-type: none;
+}
+li:hover{
+  font-weight: bold;
+}
+
+.bottom-text{
+  position: absolute;
+
+height: 225px;
+left: 892px;
+top: 400px;
+right: 0px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: bold;
+font-size: 8rem;
+line-height: 10px;
+color: #000000;
+}
+
+.colorbox{
+  position: absolute;
+width: 52px;
+height: 44px;
+left: 150px;
+top: 545px;
+background: #000000;
+}
+
+.senior{
+position: absolute;
+width: 450px;
+height: 600px;
+left: 100px;
+top: 675px;
+margin: 0px;
+background: url(DSC_0902.jpg);
+}
+.textbox{
+ position: absolute;
+width: 540px;
+height: 500px;
+left: 700px;
+top: 675px;
+right: 0px;
+font-family: Crimson Text;
+font-style: italic;
+font-weight: bold;
+font-size: 400%;
+padding-top: 0px;
+padding-bottom: 40px;
+padding-left: 40px;
+line-height: 75px;
+background: #B2C5A9;
+color: #000000;
+}
+.textbox p{
+margin-top: 7%;
+align-items: center;
+width: 500px;
+}
+
+.smalltext{
+ position: absolute;
+width: 800px;
+height: 91px;
+left: 600px;
+top: 1170px;
+right: 0px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: normal;
+font-size: 250%;
+line-height: 98px;
+color: #000000;
+}
+
+.title3{
+position: absolute;
+left: 50px;
+top: 1250px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: bold;
+font-size: 700%;
+line-height: 272px;
+color: #000000;
+margin: 1rem;
+}
+
+.birdhouse{
+ position: absolute;
+width: 445px;
+height: 515px;
+left: 0px;
+top: 1500px;
+padding-top: 4rem;
+padding-left: 4rem;
+background:  #C4C4C4;
+
+}
+.reflection{
+position: absolute;
+width: 469px;
+height: 544px;
+left: 750px;
+top: 1450px;
+margin: 0px;
+background: url(FB848597-50B8-4CD6-859D-A36CF9E6155F.jpg);
+}
+
+.title4{
+position: absolute;
+width: 1000px;
+height: 800px;
+left: 0px;
+top: 1750px;
+margin-left: -50px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 300;
+font-size: 600%;
+line-height: 195px;
+color: #000000;
+transform: rotate(-90deg);
+}
+
+.colorbox4{
+  position: absolute;
+width: 589px;
+height: 600px;
+left: 325px;
+top: 2150px;
+background: #C4C4C4;
+}
+
+.graphic{
+  position: absolute;
+width: 728px;
+height: 468px;
+left: 533px;
+top: 2200px;
+}
+
+.merch{
+  position: absolute;
+width: 684px;
+height: 628px;
+left: 91px;
+top: 4118px;
+background: url(Screen Shot 2020-10-29 at 3.41.png);
+}
+
+.title5{
+  position: absolute;
+width: 476px;
+height: 535px;
+left: 814px;
+top: 4118px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: bold;
+font-size: 144px;
+line-height: 272px;
+color: #000000;
+}
+
+.colorbox5{
+  position: absolute;
+width: 425px;
+height: 725px;
+left: 961px;
+top: 4058px;
+background: #C4C4C4;
+}
+
+.title6{
+position: absolute;
+width: 845px;
+height: 237px;
+left: 634px;
+top: 4825px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: bold;
+font-size: 144px;
+line-height: 272px;
+color: #000000;
+}
+
+.insta1{
+position: absolute;
+width: 518px;
+height: 742px;
+left: 79px;
+top: 4887px;
+background: url(IMG_9397.jpg);
+}
+
+.insta2{
+position: absolute;
+width: 753px;
+height: 591px;
+left: 643px;
+top: 5106px;
+background: url(IMG_9395.jpg);
+}
+
+.footer{
+  position: absolute;
+width: 1440px;
+height: 148px;
+left: 0px;
+top: 5828px;
+background: #B2C5A9;
+}
+
+.logos{
+  color: black;
+  top: 5828px;
+}
+
+.logos a{
+  position: absolute;
+width: 366px;
+height: 99px;
+left: 1057px;
+top: 5842px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 98px;
+color: #000000;
+}

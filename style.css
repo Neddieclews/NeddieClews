@@ -63,7 +63,7 @@ background: #000000;
 
 .senior{
 position: absolute;
-width: 450px;
+width: 420px;
 height: 600px;
 left: 100px;
 top: 675px;
@@ -115,7 +115,7 @@ left: 50px;
 top: 1250px;
 font-family: Crimson Text;
 font-style: normal;
-font-weight: bold;
+font-weight: 550;
 font-size: 700%;
 line-height: 272px;
 color: #000000;
@@ -152,7 +152,7 @@ top: 1750px;
 margin-left: -50px;
 font-family: Crimson Text;
 font-style: normal;
-font-weight: 300;
+font-weight: 550;
 font-size: 600%;
 line-height: 195px;
 color: #000000;
@@ -178,10 +178,10 @@ top: 2200px;
 
 .merch{
   position: absolute;
-width: 684px;
-height: 628px;
+width: 584px;
+height: 528px;
 left: 91px;
-top: 4118px;
+top: 2850px;
 background: url(Screen Shot 2020-10-29 at 3.41.png);
 }
 
@@ -190,80 +190,248 @@ background: url(Screen Shot 2020-10-29 at 3.41.png);
 width: 476px;
 height: 535px;
 left: 814px;
-top: 4118px;
+top: 2800px;
 font-family: Crimson Text;
 font-style: normal;
 font-weight: bold;
-font-size: 144px;
-line-height: 272px;
+font-size: 600%;
+line-height: 172px;
 color: #000000;
 }
 
 .colorbox5{
   position: absolute;
 width: 425px;
-height: 725px;
-left: 961px;
-top: 4058px;
+height: 575px;
+left: 861px;
+top: 2825px;
 background: #C4C4C4;
 }
 
 .title6{
 position: absolute;
-width: 845px;
 height: 237px;
 left: 634px;
-top: 4825px;
+top: 3300px;
 font-family: Crimson Text;
 font-style: normal;
 font-weight: bold;
-font-size: 144px;
+font-size: 700%;
 line-height: 272px;
 color: #000000;
 }
 
 .insta1{
 position: absolute;
-width: 518px;
-height: 742px;
-left: 79px;
-top: 4887px;
+width: 418px;
+height: 572px;
+left: 100px;
+top: 3500px;
 background: url(IMG_9397.jpg);
 }
 
 .insta2{
 position: absolute;
-width: 753px;
-height: 591px;
-left: 643px;
-top: 5106px;
+width: 553px;
+height: 391px;
+left: 743px;
+top: 3650px;
 background: url(IMG_9395.jpg);
+}
+
+.colorbox6{
+position: absolute;
+width: 1000px;
+height: 403px;
+left: 43px;
+top: 3700px;
+background: #C4C4C4;
 }
 
 .footer{
   position: absolute;
-width: 1440px;
-height: 148px;
+width: 1300px;
+height: 10%;
 left: 0px;
-top: 5828px;
+top: 4200px;
 background: #B2C5A9;
+padding: 2rem;
+margin: 0;
 }
 
-.logos{
-  color: black;
-  top: 5828px;
+.back{
+position: absolute;
+left:1000px;
+margin-left: 900px;
+font-family: Crimson Text;
+font-weight: 600;
+font-size: 600%;
+color: #000000;
 }
+
 
 .logos a{
-  position: absolute;
-width: 366px;
-height: 99px;
-left: 1057px;
-top: 5842px;
+justify-content: space-between;
+align-items: center;
+top: 20px;
+margin: 2rem;
+margin-left: 3rem;
 font-family: Crimson Text;
 font-style: normal;
 font-weight: 600;
-font-size: 72px;
-line-height: 98px;
+font-size: 300%;
 color: #000000;
+}
+
+@media screen and (max-width: 400px){
+ .top-text{
+   position: relative;
+   font-size: 5rem;
+   left: 60px;
+   top: -10px;
+ }
+.links{
+font-size: 3rem;
+left: 120px;
+top: 70px;
+line-height: 60px;
+}
+
+.bottom-text{
+  position: relative;
+   font-size: 5rem;
+   left: 50px;
+   top: 170px;
+}
+.colorbox{
+  top: 420px;
+  left: 325px;
+  width: 7%;
+  height:6%;
+}
+.senior{
+  width: 275px;
+  height: 400px;
+  left: 70px;
+  top: 525px;
+}
+.smalltext{
+  left: 45px;
+  top: 910px;
+  font-size: 2rem;
+  width: 400px;
+  line-height: 35px;
+}
+.textbox{
+  left: 50px;
+  top: 1040px;
+  width: 275px;
+  height: 450px;
+  font-size: 2.3rem;
+}
+.textbox p{
+  width: 260px;
+}
+
+.title3{
+  left: 20px;
+  top: 1430px;
+  font-size: 375%;
+  font-weight: 900;
+}
+.birdhouse{
+  top: 1650px;
+ 
+  width: 245px;
+  height: 315px;
+  margin-left:3rem;
+}
+.reflection{
+  width: 350px;
+height: 444px;
+left: 30px;
+top: 2075px;
+}
+.title4{
+left: -110px;
+top: 2050px;
+font-size: 450%;
+}
+.colorbox4{
+  width: 270px;
+height: 400px;
+left: 90px;
+top: 2585px;
+}
+.graphic{
+  width: 280px;
+height: 190px;
+left: 120px;
+top: 2675px;
+}
+
+.merch{
+width: 314px;
+height: 278px;
+left: 45px;
+top: 3050px;
+}
+.colorbox5{
+  width: 225px;
+height: 450px;
+left: 160px;
+top: 3075px;
+}
+.title5{
+font-size: 400%;
+left: 70px;
+top: 3270px;
+width: 200px;
+line-height:80px;
+}
+
+.insta1{
+  width: 318px;
+height: 430px;
+left: 50px;
+top: 3550px;
+}
+.colorbox6{
+  left: 20px;
+ top: 3600px;
+ width: 300px;
+height: 500px;
+}
+.insta2{
+  width: 350px;
+height: 291px;
+left: 35px;
+top: 4000px;
+}
+.title6{
+font-size: 400%;
+left: 10px;
+top: 4210px;
+line-height: 100px;
+}
+
+.footer{
+  width: 335px;
+height: 5%;
+left: 0px;
+top: 4400px;
+margin: 0px;
+}
+
+.logos a{
+margin-top: 1rem;
+margin-left: 0.5rem;
+font-size: 150%;
+}
+.back{
+width: 150px;
+left: 250px;
+top: 15px;
+font-size: 100%;
+}
 }

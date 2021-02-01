@@ -39,7 +39,6 @@ li:hover{
 
 .bottom-text{
   position: absolute;
-
 height: 225px;
 left: 892px;
 top: 400px;
@@ -284,13 +283,16 @@ color: #000000;
 }
 
 @media screen and (max-width: 400px){
+
  .top-text{
+  width: 0;
    position: relative;
    font-size: 5rem;
    left: 60px;
    top: -10px;
  }
 .links{
+  width: 0;
 font-size: 3rem;
 left: 120px;
 top: 70px;
@@ -298,6 +300,7 @@ line-height: 60px;
 }
 
 .bottom-text{
+  width: 0;
   position: relative;
    font-size: 5rem;
    left: 50px;
@@ -316,6 +319,7 @@ line-height: 60px;
   top: 525px;
 }
 .smalltext{
+
   left: 45px;
   top: 910px;
   font-size: 2rem;
@@ -334,6 +338,7 @@ line-height: 60px;
 }
 
 .title3{
+  width: 0;
   left: 20px;
   top: 1430px;
   font-size: 375%;
@@ -409,6 +414,7 @@ left: 35px;
 top: 4000px;
 }
 .title6{
+  width: 0;
 font-size: 400%;
 left: 10px;
 top: 4210px;
